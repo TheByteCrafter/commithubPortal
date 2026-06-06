@@ -1,7 +1,13 @@
+import NavBar from "../Components/NavBar";
+import Progress from "../Components/Progress";
+
 const LandingPage = () => {
   return (
-    <div>
-      <h1>Landing Page</h1>
+    <div className="h-screen w-screen p-0">
+      <NavBar />
+      <div className="flex flex-col items-center justify-center h-screen w-screen p-10">
+        <Progress />
+      </div>
     </div>
   );
 };
